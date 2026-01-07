@@ -5,6 +5,16 @@
 .next
 next
 .next/
+
+# Environment variables
+*.env
+.env.local
+.env*.local
+
+# Data storage (subscriber emails, etc.)
+data/
+*.json
+
 # User-specific files
 *.rsuser
 *.suo
